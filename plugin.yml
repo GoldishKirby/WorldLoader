@@ -1,0 +1,9 @@
+name: WorldLoader
+main: Goldish\WorldLoader\WorldLoader
+version: 1.0
+api:
+- 1.0.0
+- 2.0.0
+load: STARTUP
+author: Goldish_Kirby
+description: "Automatically loads world on server start"
