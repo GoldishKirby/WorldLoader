@@ -1,6 +1,6 @@
 <?php
 
-namespace Goldish\LEETWorldTP;
+namespace Goldish\WorldLoader;
 
 use pocketmine\level\Level;
 use pocketmine\level\Position;
