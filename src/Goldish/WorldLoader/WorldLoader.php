@@ -15,8 +15,10 @@ class WorldLoader extends PluginBase {
   	$cmd = strtolower($command->getName());
 	switch($cmd){
 		case "loadworlds":
+                    $sender->sendMessage(TextFormat::AQUA . "[WorldLoader]" . TextFormat::YELLOW . " All worlds has been loaded.");
 		       foreach($this->getServer()->getLevels() as $level) {
          $this->getServer()->loadLevel($level);
+         break;
                        }
         }
   }
