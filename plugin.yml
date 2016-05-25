@@ -9,7 +9,7 @@ author: Goldish_Kirby
 description: "Automatically loads world on server start"
 
 commands:
- loadworld:
+ loadworlds:
   description: "Loads all worlds"
   usage: "/loadworlds"
   permission: worldloader.command.loadworld
