@@ -12,6 +12,7 @@ class WorldLoader extends PluginBase {
   
   	public function onEnable(){
 		$this->getLogger()->info(TextFormat::AQUA . "WorldLoader loaded.");
+  	}
          
 		 public function onCommand(CommandSender $sender, Command $command, $label, array $args){
   			$cmd = strtolower($command->getName());
@@ -27,5 +28,4 @@ class WorldLoader extends PluginBase {
                 		break;
 			}
 		}
-  	}	
 }
